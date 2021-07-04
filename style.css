@@ -1,0 +1,74 @@
+body {
+    font-family: 'Cookie', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 2px 1px yellow;
+}
+
+#header {
+    background-color: coral;
+    border-radius: 30px;
+    width: 45%;
+    box-shadow: 5px 18px 32px black;
+    border: none;
+}
+
+h2 {
+    font-size: 40px;
+    color: aqua;
+}
+
+#ha {
+    font-size: 27px;
+    background-color: rgb(72, 200, 209);
+    margin-bottom: 5px;
+}
+
+.btn-object {
+    background-image: linear-gradient(45deg, #f17c58, #e94584, #24aadb, #27dbb1, #ffdc18, #ff3706);
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    width: 13%;
+    text-align: left;
+    margin-left: 10px;
+    background-size: 600% 100%;
+    animation: gradient 10s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 100%
+    }
+}
+
+.btn-object:hover {
+    cursor: unset;
+}
+
+canvas {
+    border-radius: 20px;
+    border: groove aquamarine;
+    border-width: 5px;
+    margin-top: 300px;
+}
+
+#footer {
+    background-color: chocolate;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
